@@ -25,6 +25,11 @@
   flex: 1;
   font-size: 2rem;
 }
+.home-section .home-container .left-home p 
+{
+  font-size: 25px;
+  margin-top: 2rem;
+}
 .home-section .home-container .right-home
 {
   flex: 1;
