@@ -23,16 +23,14 @@
 
 /* Dark mode button styles */
 .dark-mode-button {
-  background-color: #555;
-  color: #fff;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 1rem;
   cursor: pointer;
   font-size: 1rem;
 }
 
 .dark-mode-button:hover {
-  background-color: #777;
+  /* background-color: #777; */
 }
 
 
@@ -120,10 +118,11 @@
   margin-top: -14px;
   margin-left: -2px;
 }
-/* .navbar-container .nav 
+.navbar-container .nav 
 {
-  padding-right: 6rem;
-} */
+  display: flex;
+  align-items: center;
+}
 .navbar-container ul
 {
   display: flex;

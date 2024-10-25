@@ -1,4 +1,6 @@
 import React from 'react'
+import { MdDarkMode } from "react-icons/md";
+import { CiLight } from "react-icons/ci";
 
 const NavBar = ({ toggleDarkMode, isDarkMode }) => {
   return (
@@ -20,7 +22,7 @@ const NavBar = ({ toggleDarkMode, isDarkMode }) => {
         </div>
         <div className='dark-mode'>
             <button className='dark-mode-button' onClick={toggleDarkMode}> 
-                {isDarkMode ? 'Light Mode' : 'Dark Mode'}
+                {isDarkMode ? <CiLight /> : <MdDarkMode/>}
             </button> 
         </div>
 
