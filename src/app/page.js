@@ -1,10 +1,15 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import NavBar from './components/NavBar'
 
 const page = () => {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+  }
   return (
-    <div className='home-page'>
-      <NavBar/>
+    <div className={`home-page ${isDarkMode ? 'dark-mode': ''}`}>
+      <NavBar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode}/>
       <div className='home-section'>
         <div className='home-container'>
           <div className='left-home'>
