@@ -11,8 +11,9 @@ const NavBar = () => {
         <div className='nav'>
             <ul>
                 <li> Home </li>
-                <li> Services </li>
                 <li> About Us </li>
+                <li> Services </li>
+                <li> Carrer </li>
                 <li> Contact Us </li>
             </ul>
         </div>
