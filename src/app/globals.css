@@ -86,27 +86,34 @@
 
 @media screen and (max-width: 768px) 
 {
+  .home-section .home-container
+  {
+    padding: 0;
+    padding-left: 1rem;
+  }
+  .navbar-container .nav 
+  {
+    display: none;
+  }
   .navbar-container
   {
     overflow: hidden;
+    padding: 0;
   }
   .home-container
   {
     flex-direction: column;
   }
-  .left-home
-  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
   .home-section .home-container .left-home
+  {
+    font-size: 1rem;
+  }
+  .home-section .home-container .left-home p 
   {
     font-size: 1rem;
   }
   .home-section .home-container .right-home img
   {
-    width: 350px;
+    width: 340px;
   }
 }
