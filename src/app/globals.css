@@ -5,10 +5,39 @@
 }
 .home-page
 {
-  background: black;
-  color: #fff;
+  /* background: black;
+  color: #fff; */
   height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.home-section .home-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+.home-section .home-container .left-home
+{
+  flex: 1;
+  font-size: 2rem;
+}
+.home-section .home-container .right-home
+{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-section .home-container .right-home img
+{
+  width: 600px;
+}
+
+
 .navbar-container
 {
   display: flex;
@@ -18,7 +47,15 @@
 .navbar-container .logo
 {
   color: green;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+}
+.navbar-container .logo p:nth-child(2)
+{
+  margin-top: -14px;
+}
+.navbar-container .nav 
+{
+  padding-right: 3rem;
 }
 .navbar-container ul
 {
@@ -28,5 +65,5 @@
 .navbar-container ul li
 {
   list-style: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
