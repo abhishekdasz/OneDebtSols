@@ -1,6 +1,8 @@
 'use client'
 import React, { useState } from 'react'
 import NavBar from './components/NavBar'
+import { FiArrowRight } from "react-icons/fi";
+import { AiOutlineDoubleRight } from "react-icons/ai";
 
 const page = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -15,7 +17,7 @@ const page = () => {
           <div className='left-home'>
             <h1> OneDebt Solutions </h1>
             <p> At One Debt Solutions, we offer comprehensive debt collection services, including early-stage collections, overdue account management, and legal recovery solutions. Our expertise spans various industries, allowing us to deliver customized strategies that maximize recovery rates for our clients. With a commitment to compliance and ethical practices, we handle each case with diligence and respect. </p>
-            <p> Explore- </p>
+            <div> Explore <FiArrowRight /> </div>
           </div>
           <div className='right-home'>
             <img src='home.png' alt='home-img' />  

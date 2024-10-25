@@ -7,9 +7,13 @@ const NavBar = ({ toggleDarkMode, isDarkMode }) => {
     <div>
       <div className='navbar-container'>
 
-        <div className='logo'> 
+        <div className='logo'>
+            <div id='rupee'> ₹ </div> 
+            <div>
             <p> OneDebt </p>
             <p> Solutions </p>
+            </div>
+
         </div>
         <div className='nav'>
             <ul>

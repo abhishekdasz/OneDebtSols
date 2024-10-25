@@ -26,7 +26,7 @@
   border: none;
   padding: 1rem;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 /* .dark-mode-button:hover {
@@ -70,20 +70,25 @@
 .home-section .home-container .left-home h1 
 {
   color: #ffcc00;
+  font-family: cursive;
 }
 .home-section .home-container .left-home p 
 {
   font-size: 25px;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   color: #565761;
   font-family: cursive;
 }
-.home-section .home-container .left-home p:nth-child(3)
+.home-section .home-container .left-home div:nth-child(3)
 {
   color: #10b6b6;
   font-weight: bold;
   font-size: 30px;
   cursor: pointer;
+  font-family: cursive;
+  display: flex;
+  align-items: flex-end;
 
 }
 .home-section .home-container .right-home
@@ -99,19 +104,35 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
 .navbar-container
 {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  background: #fff7f7;
 }
 .navbar-container .logo
 {
+  display: flex;
   color: #48e648;
   font-size: 1.5rem;
   padding-left: 4rem;
   font-weight: bold;
   cursor: pointer;
+}
+#rupee
+{
+  font-size: 40px;
 }
 .navbar-container .logo p:nth-child(2)
 {
