@@ -2,6 +2,7 @@
 {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /* Dark mode styles */
 .dark-mode {
@@ -224,6 +225,8 @@
 
 .contact-section
 {
+  margin: 0;
+  padding: 0;
   height: 100vh;
   color: #fff;
 }
@@ -236,3 +239,29 @@
   height: 204px;
   background-repeat: no-repeat;
 }
+
+
+
+@keyframes zoom-fade {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.zoom-fade {
+  animation: zoom-fade 4s infinite linear;
+}
+
+.white-image {
+  filter: brightness(0) invert(1); /* Makes the image white */
+}
+
