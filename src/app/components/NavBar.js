@@ -1,6 +1,7 @@
 import React from 'react'
 import { MdDarkMode } from "react-icons/md";
 import { CiLight } from "react-icons/ci";
+import Link from 'next/link';
 
 const NavBar = ({ toggleDarkMode, isDarkMode }) => {
   return (
@@ -21,7 +22,7 @@ const NavBar = ({ toggleDarkMode, isDarkMode }) => {
                 <li> About Us </li>
                 <li> Services </li>
                 <li> Carrer </li>
-                <li> Contact Us </li>
+                <li> <Link href='/contact'> Contact Us </Link> </li>
             </ul>
         </div>
         <div className='dark-mode'>
