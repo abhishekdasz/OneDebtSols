@@ -10,18 +10,17 @@ const NavBar = ({ toggleDarkMode, isDarkMode }) => {
 
         <div className='logo'>
             <div id='rupee'> ₹ </div> 
-            <div>
-            <p> OneDebt </p>
-            <p> Solutions </p>
+            <div> 
+              <Link href='/'> <p> OneDebt </p> <p> Solutions </p> </Link>
             </div>
 
         </div>
         <div className='nav'>
             <ul>
-                <li> Home </li>
-                <li> About Us </li>
-                <li> Services </li>
-                <li> Carrer </li>
+                <li> <Link href='/'> Home </Link> </li>
+                <li> <Link href='/'> About Us </Link> </li>
+                <li> <Link href='/'> Services </Link> </li>
+                <li> <Link href='/'> Carrer </Link> </li>
                 <li> <Link href='/contact'> Contact Us </Link> </li>
             </ul>
         </div>

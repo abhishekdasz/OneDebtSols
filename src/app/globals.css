@@ -55,12 +55,17 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.home-section
+{
+
+}
 .home-section .home-container
 {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  height: 100vh;
 }
 .home-section .home-container .left-home
 {
@@ -120,7 +125,9 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  background: #fff7f7;
+  /* background: #fff7f7; */
+  position: absolute;
+  width: 100%;
 }
 .navbar-container .logo
 {
@@ -130,6 +137,11 @@
   padding-left: 4rem;
   font-weight: bold;
   cursor: pointer;
+}
+.navbar-container .logo a
+{
+  color: #48e648;
+  text-decoration: none;
 }
 #rupee
 {
@@ -157,6 +169,11 @@
   font-size: 22px;
   cursor: pointer;
   text-decoration: none;
+}
+.navbar-container ul li a
+{
+  text-decoration: none;
+  color: rgb(33, 33, 33);
 }
 .navbar-container ul li:hover
 {
