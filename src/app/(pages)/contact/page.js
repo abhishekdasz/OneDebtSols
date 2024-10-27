@@ -20,8 +20,11 @@ const Page = () => {
 
 
         <div className='shape-1'>
-          <Image className='zoom-fade white-image' src='/shape1.png' width={200} height={200} alt='shape' />
+          <Image className='zoom-fade white-image' src='/shape2.png' width={200} height={200} alt='shape' />
         </div>
+
+        <div className='topBlur'>  </div>
+        <div className='bottomBlur'>  </div>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { MdDarkMode } from "react-icons/md";
 import { CiLight } from "react-icons/ci";
